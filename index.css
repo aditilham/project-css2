@@ -1,6 +1,140 @@
-.home.about.project.blog {
-    font-family: 'Patua One', cursive;
+.nav {
+    font-family: "Patua One", cursive;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+    -webkit-text-fill-color: black;
 }
-.nav{
-    font-family: 'Patua One', cursive;
+
+.nightmode {
+    text-align: right;
+}
+
+.pp {
+    flex-grow: 1;
+    text-align: center;
+    padding-left: 335px;
+}
+
+.mid2 {
+    font-size: 50px;
+}
+
+.mid3 {
+    font-size: 25px;
+}
+
+.mid4 {
+    font-size: 35px;
+}
+
+.mid5 {
+    font-size: 30px;
+}
+
+.flex {
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 75px;
+}
+
+.emid {
+    font-family: 'Fredoka One', cursive;
+    background-color: #54BFED;
+}
+
+.h0 {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex2 {
+    width: 420px;
+}
+
+.h1 {
+    font-family: "Patua One", cursive;
+    font-size: 40px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px black;
+    text-align: right;
+    width: 80%;
+}
+
+.h3 {
+    font-family: "Patua One", cursive;
+    font-size: 20px;
+    text-align: right;
+    width: 80%;
+    height: 25%;
+}
+
+.mid {
+    text-align: center;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hhh {
+    background-repeat: no-repeat;
+    background-image: url(./assets/images/background.jpg);
+    background-blend-mode: lighten;
+    background-position: center;
+    background-size: cover;
+}
+
+hr.onepixel {
+    border-top: 5px solid #000000;
+    border-bottom: 1px solid #000000;
+    height: 0px;
+    margin-bottom: 20px;
+}
+
+.message {
+    width: 230px;
+    height: 80px;
+    /* border: 4px solid green;
+    margin: 10px; */
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.stat div {
+    width: 170px;
+    border: 4px solid green;
+    margin: 0 auto;
+    border-radius: 40px;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #25799D;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.padding {
+    padding: 15px;
+}
+
+.footer2 {
+    text-align: center;
+    background-color: #0C4057;
+    font-family: 'Fredoka One', cursive;
+    padding: 5px;
 }
