@@ -23,7 +23,7 @@
     background-size: cover;
 }
 
-.nightmode {
+.night-mode {
     text-align: right;
 }
 
@@ -61,7 +61,7 @@
     height: 25%;
 }
 
-.bd-body {
+.background-body {
     font-family: 'Fredoka One', cursive;
     background-color: #54BFED;
 }
