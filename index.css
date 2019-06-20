@@ -1,4 +1,4 @@
-.nav {
+.navigation {
     font-family: "Patua One", cursive;
     list-style-type: none;
     margin: 0;
@@ -8,56 +8,43 @@
     -webkit-text-fill-color: black;
 }
 
-.nightmode {
-    text-align: right;
-}
-
-.pp {
-    flex-grow: 1;
-    text-align: center;
-    padding-left: 415px;
-}
-
-.mid2 {
-    font-size: 50px;
-}
-
-.mid3 {
-    font-size: 25px;
-}
-
-.mid4 {
-    font-size: 35px;
-}
-
-.mid5 {
-    font-size: 30px;
-}
-
-.flex {
+.navigation2 {
     padding: 5px;
     display: flex;
     justify-content: space-evenly;
     margin-right: 75px;
 }
 
-.emid {
-    font-family: 'Fredoka One', cursive;
-    background-color: #54BFED;
+.header {
+    background-repeat: no-repeat;
+    background-image: url(./assets/images/background.jpg);
+    background-blend-mode: lighten;
+    background-position: center;
+    background-size: cover;
 }
 
-.h0 {
+.nightmode {
+    text-align: right;
+}
+
+.header-top {
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.flex2 {
+.profile-pic {
+    flex-grow: 1;
+    text-align: center;
+    padding-left: 415px;
+}
+
+.header-text {
     width: 420px;
 }
 
-.h1 {
+.text-1 {
     font-family: "Patua One", cursive;
     font-size: 40px;
     -webkit-text-fill-color: transparent;
@@ -66,7 +53,7 @@
     width: 80%;
 }
 
-.h3 {
+.text-2 {
     font-family: "Patua One", cursive;
     font-size: 20px;
     text-align: right;
@@ -74,26 +61,39 @@
     height: 25%;
 }
 
-.mid {
+.bd-body {
+    font-family: 'Fredoka One', cursive;
+    background-color: #54BFED;
+}
+
+.body-align {
     text-align: center;
 }
 
-.flex3 {
+.body-font-1 {
+    font-size: 50px;
+}
+
+.flex {
     display: flex;
     justify-content: space-evenly;
 }
 
-.flex4 {
+.body-font-2 {
+    font-size: 25px;
+}
+
+.flex-1 {
     display: flex;
     justify-content: space-evenly;
 }
 
-.hhh {
-    background-repeat: no-repeat;
-    background-image: url(./assets/images/background.jpg);
-    background-blend-mode: lighten;
-    background-position: center;
-    background-size: cover;
+.body-font-3 {
+    font-size: 35px;
+}
+
+.body-font-4 {
+    font-size: 30px;
 }
 
 hr.onepixel {
